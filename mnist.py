@@ -130,6 +130,6 @@ def main():
     if args.save_model:
         torch.save(model.state_dict(), "mnist_cnn.pt")
     print("a")
-
+#다시 추가합니다.
 if __name__ == '__main__':
     main()
